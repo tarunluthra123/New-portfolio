@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #7c3aed;
+}
+
+.dark svg {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}

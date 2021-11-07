@@ -1,0 +1,70 @@
+[
+    {
+        "title": "Github Explorer",
+        "description": "A Github Explorer web app to search and explore github user profiles using data fetched from Github REST API. The page uses infinite scroll to display the list of repositories efficiently.",
+        "githubUrl": "https://github.com/tarunluthra123/GithubExplorer-React",
+        "projectUrl": "https://tarunluthra123.github.io/GithubExplorer-React/",
+        "imageUrl": "github_explorer_screenshot.png",
+        "technologies": [
+            "ReactJS",
+            "REST API",
+            "Github"
+        ]
+    },
+    {
+        "title": "Tambola",
+        "description": "Play the popular board game Tambola (Indian Bingo) with this fun and responsive random number generator with special messages for each number.",
+        "githubUrl": "https://github.com/tarunluthra123/Tambola-React",
+        "projectUrl": "https://tarunluthra123.github.io/Tambola-React/",
+        "imageUrl": "Tambola_Screenshot.png",
+        "technologies": [
+            "ReactJS",
+            "Bootstrap",
+            "Animations"
+        ]
+    },
+    {
+        "title": "Kollab Space",
+        "description": "A collab app for students,teachers and colleagues to interact, share and collaborate ideas in a simplified manner and work together with increased productivity in a sophisticated environment",
+        "githubUrl": "https://github.com/tarunluthra123/Kollab-Space",
+        "projectUrl": "https://kollab-space.herokuapp.com/",
+        "imageUrl": "kollab_space_gif.gif",
+        "technologies": [
+            "Typescript",
+            "React",
+            "Express",
+            "Socket.io",
+            "JWTs",
+            "PostgreSQL",
+            "Semantic UI CSS"
+        ]
+    },
+    {
+        "title": "Hulu Clone",
+        "description": "A fully functional, responsive and user friendly Hulu clone where users can browse and search their favourite movies and shows, sort them into lists and much more....",
+        "githubUrl": "https://github.com/tarunluthra123/Hulu-Clone",
+        "projectUrl": "https://hulu-clone-amber.vercel.app/",
+        "imageUrl": "hulu_clone.gif",
+        "technologies": [
+            "Next.js",
+            "Tailwind CSS",
+            "Redux",
+            "Express",
+            "MongoDB",
+            "JWT"
+        ]
+    },
+    {
+        "title": "LinkedIn Clone",
+        "description": "A fully web resposive LinkedIn Clone which allows to create and read posts, comment and improve their social experience with realtime updates with a minimal and attractive UI.",
+        "githubUrl": "https://github.com/tarunluthra123/Linkedin-Clone",
+        "projectUrl": "https://linkedin-clone-livid.vercel.app/",
+        "imageUrl": "Linkedin_clone.gif",
+        "technologies": [
+            "Next.js",
+            "Tailwind CSS",
+            "Redux",
+            "Firebase"
+        ]
+    }
+]

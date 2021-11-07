@@ -15,11 +15,17 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.6",
     "gatsby": "^3.9.0",
+    "gatsby-plugin-postcss": "^4.9.0",
+    "gatsby-source-filesystem": "^3.9.0",
+    "gatsby-transformer-json": "^3.9.0",
+    "postcss": "^8.3.5",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.2.4"
   },
   "engines": {
-    "node" : "14.17.3"
+    "node": "14.17.3"
   }
 }
