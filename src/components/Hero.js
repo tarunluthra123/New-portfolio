@@ -1,15 +1,14 @@
 import React from "react";
-import { GithubIcon, MailIcon, LinkedInIcon } from "../images/Social-Icons";
+import { GithubIcon, MailIcon, LinkedInIcon } from "src/images/Social-Icons";
 
 const Hero = () => {
   return (
     <div className="h-85vh px-10 py-10">
-      <h1 className="text-center text-4xl">
-        Hey, I'm <span>Tarun</span>
+      <h1 className="text-center text-4xl text-secondaryColor dark:text-secondaryDarkColor">
+        <strong>Tarun Luthra</strong>
       </h1>
       <p>
-        I am a fullstack developer who loves to create new web apps and teach
-        people to code. PS: I love chai.
+        Part-time fullstack developer. Fulltime gamer, otaku and chai addict.
       </p>
       <div className="flex">
         <GithubIcon />

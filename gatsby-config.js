@@ -1,3 +1,4 @@
+const path = require("path");
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
@@ -19,8 +20,16 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-transformer-json`,
+      resolve: "gatsby-plugin-root-import",
+      options: {
+        src: path.join(__dirname, "src"),
+        utils: path.join(__dirname, "utils"),
+        styles: path.join(__dirname, "src/styles"),
+      },
     },
+    `gatsby-transformer-json`,
     "gatsby-plugin-postcss",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
   ],
 };
