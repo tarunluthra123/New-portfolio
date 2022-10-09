@@ -4,7 +4,11 @@ import { graphql, StaticQuery } from "gatsby";
 const Projects = (data) => {
   const projects = data.allProjectsJson.nodes;
   console.log("projects = ", projects)
-  return <section>Projects section</section>;
+  return (
+    <section>
+      <h1></h1>
+    </section>
+  );
 };
 
 export const query = graphql`
