@@ -54,7 +54,7 @@ const query = graphql`
 }
 `;
 
-export default function () {
+export default function SocialIconsWrapper() {
   return <StaticQuery
     query={query}
     render={SocialIcons}

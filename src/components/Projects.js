@@ -1,27 +1,32 @@
-import { graphql } from "gatsby";
 import React from "react";
+import { graphql, StaticQuery } from "gatsby";
 
-const Projects = ({ data }) => {
-  console.log("projects = ",data);
-  return <div>Projects section</div>;
+const Projects = (data) => {
+  const projects = data.allProjectsJson.nodes;
+  console.log("projects = ", projects)
+  return <section>Projects section</section>;
 };
 
 export const query = graphql`
   {
     allProjectsJson {
-      edges {
-        node {
-          id
-          technologies
-          title
-          projectUrl
-          imageUrl
-          githubUrl
-          description
-        }
+      nodes {
+        id
+        title
+        githubUrl
+        description
+        projectUrl
+        technologies
       }
     }
   }
 `;
 
-export default Projects;
+export default function ProjectsWrapper() {
+  return (
+    <StaticQuery
+      query={query}
+      render={Projects}
+    />
+  );
+}

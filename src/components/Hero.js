@@ -22,21 +22,22 @@ const Hero = () => {
             Fullstack Developer. Instructor.
           </span>
           <br />
-          My addictions are {` `}
           <span className="hidden dark:inline">
-            animes, books and games.
+            My addictions are animes, books and games.
           </span>
           <span className="dark:hidden">
-            coding, teaching and learning.
+            I love coding, teaching and building cool stuff.
           </span>
         </p>
         <SocialIcons />
       </div>
       <StaticImage
+        alt="programmer"
         src="../images/programming.svg"
         className="max-w-xs animate-[bounce_2s_ease-in-out_infinite] dark:hidden"
       />
       <StaticImage
+        alt="hacker"
         src="../images/hacker.svg"
         className="max-w-xs animate-[bounce_2s_ease-in-out_infinite] hidden dark:block"
       />

@@ -1,17 +1,18 @@
-const TOKEN = "dJwtzfsKxi";
 export const LIGHT_THEME = "light";
 export const DARK_THEME = "dark";
 
 export function setTheme(theme = "light") {
-  localStorage.setItem(TOKEN, theme);
   document.documentElement.classList.remove(LIGHT_THEME, DARK_THEME);
   document.documentElement.classList.add(theme);
 }
 
 export function getTheme() {
+  if (typeof document === 'undefined') {
+    return LIGHT_THEME;
+  }
   // Default theme - Light
-  const theme = localStorage.getItem(TOKEN);
-  return theme || LIGHT_THEME;
+  const currentTheme = document?.documentElement.classList[0];
+  return currentTheme || LIGHT_THEME;
 }
 
 export function toggleTheme() {
