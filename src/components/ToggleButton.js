@@ -5,7 +5,7 @@ const ToggleButton = () => {
   const [checked, setChecked] = useState(getTheme() === DARK_THEME);
 
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center mr-0 ml-auto w-10">
       <label
         htmlFor="toggle-button"
         className="flex items-center cursor-pointer"

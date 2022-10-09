@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import "styles/toggle-button.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: 'Roboto', sans-serif;;
+}

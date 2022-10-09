@@ -1,7 +1,7 @@
 const colors = {
   "blue-300": "#93c5fd",
-  "blue-700": "#1d4ed8",
   "blue-500": "#3b82f6",
+  "blue-700": "#1d4ed8",
 };
 
 module.exports = {

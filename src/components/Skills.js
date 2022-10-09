@@ -1,22 +1,24 @@
 import * as React from "react";
-import { graphql } from "gatsby";
+import { StaticQuery, graphql } from "gatsby";
 
-const Skills = ({ data }) => {
+const Skills = (data) => {
+  console.log("skills = ", data)
   return <section>Skills</section>;
 };
 
-export const query = graphql`
-  {
-    allSkillsJson {
-      edges {
-        node {
+export default function () {
+  return <StaticQuery
+    query={graphql`
+    {
+      allSkillsJson {
+        nodes {
           name
           image
           id
         }
       }
     }
-  }
-`;
-
-export default Skills;
+    `}
+    render={Skills}
+  />
+}
